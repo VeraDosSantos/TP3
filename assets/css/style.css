@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
-* {
+
+*{
     box-sizing: border-box;
     vertical-align: baseline;
 }
@@ -74,6 +75,20 @@ header nav a:first-child{
     background-color: rgb(255, 113, 198);
 }
 
+.imgLogo{
+    margin-top: 20px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.panier{
+    background-color: rgb(255, 113, 198);
+    padding: 20px;
+    color: white;
+}
+
 footer{
     font-family: "Exo", sans-serif;
     margin-top: 5%;
@@ -99,5 +114,9 @@ footer{
     nav{
         flex-direction: column;
         justify-content: center;
+    }
+
+    .panier{
+        margin-bottom: 10px;
     }
 }
